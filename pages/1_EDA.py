@@ -10,7 +10,7 @@ def load_data():
     return pd.read_csv("data/penguins_size.csv")
 
 df = load_data()
-st.write("### Dataset", df.head())
+st.write("### Dataset", df)
 
 st.write("### Informasi Dataset")
 st.write(df.describe())
